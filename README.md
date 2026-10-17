@@ -66,9 +66,7 @@ drwx--x--- 2 researcher2 research_team 4096 Oct 17 14:26 drafts
 -rw-rw-r-- 1 researcher2 research_team   46 Oct 17 14:26 project_r.txt
 -rw-rw-r-- 1 researcher2 research_team   46 Oct 17 14:26 project_t.txt
 ```
-
-![Initial listing](<img width="1600" height="646" alt="fafea8b7-ba8e-4f4d-b789-70fe6d66b5cd" src="https://github.com/user-attachments/assets/988e5f71-2339-4c9d-88fc-9026d77bf290" />
-)
+<img width="890" height="252" alt="Initial" src="https://github.com/user-attachments/assets/782de529-87a5-4487-9523-3d12fbdc9aa7" />
 
 ---
 
@@ -86,8 +84,7 @@ chmod o-w project_k.txt
 |---|---|
 | `-rw-rw-rw-` | `-rw-rw-r--` |
 
-![project_k.txt](<img width="902" height="763" alt="7fda4aa9-e498-4607-9503-2e0eb73d2b0d" src="https://github.com/user-attachments/assets/cb29d708-6b5a-4b16-8d72-a05a36c2b065" />
-)
+<img width="892" height="561" alt="part 2" src="https://github.com/user-attachments/assets/69a5d51b-d808-4662-bc04-d4004d37a662" />
 
 ---
 
@@ -121,8 +118,7 @@ chmod u-w,g-w,g+r .project_x.txt
 |---|---|
 | `-rw--w----` | `-r--r-----` |
 
-![.project_x.txt](<img width="902" height="763" alt="project_x txt" src="https://github.com/user-attachments/assets/39a2134a-9186-4701-abcc-3a953a147d86" />
-)
+<img width="887" height="766" alt="part 3" src="https://github.com/user-attachments/assets/37675384-4c5d-4ed7-a3a3-d47410f7473c" />
 
 ---
 
@@ -139,6 +135,9 @@ chmod g-x drafts
 | Before (antes) | After (depois) |
 |---|---|
 | `drwx--x---` | `drwx------` |
+
+<img width="886" height="827" alt="FINAL RESULT" src="https://github.com/user-attachments/assets/819310a5-cded-412c-a3a5-60351273ef06" />
+<img width="902" height="763" alt="project_x txt" src="https://github.com/user-attachments/assets/215cda38-233d-4f9e-bb80-bb4cc7c7b353" />
 
 ---
 
@@ -160,9 +159,7 @@ drwx------ 2 researcher2 research_team 4096 Oct 17 14:26 drafts
 | `.project_x.txt` | `-rw--w----` | `-r--r-----` | `chmod u-w,g-w,g+r` |
 | `drafts/` | `drwx--x---` | `drwx------` | `chmod g-x` |
 
-![Final result](<img width="886" height="827" alt="FINAL RESULT" src="https://github.com/user-attachments/assets/e17e898e-7410-4e2c-8e59-93a868a1a250" />
-)
-
+<img width="886" height="827" alt="FINAL RESULT" src="https://github.com/user-attachments/assets/5d9533ba-e8ff-4f0f-9309-74ab57d261ea" />
 ---
 
 ## 💡 Key Takeaways (Aprendizados)
